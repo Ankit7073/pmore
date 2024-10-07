@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(1, 1, 5);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(9, 9, 73);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(170, 107, 228);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            margin: 35px 154px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 75px 0;
+        }
+
+        .firstsection>div {
+            width: 40%;
+        }
+
+        .leftsection {
+            font-size: 1.2rem;
+            margin: 50px 0;
+        }
+
+        .rightsection img {
+            width: 80%;
+
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+        footer .footer-rights{
+            text-align: center;
+            margin: -30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ankit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/project.html">My Projects</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                    <li><a href="/resume.html">Resume</a></li>
+            </div>
+
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple"><b>Ankit Joshi</b></span>, a passionate Web Designer, Logo Designer and Video Editor. 
+                I have completed my graduation in Bechelor of Computer Application from Pggc-11 co-ed, Punjab University.<br>
+                Aprat from academics i was quite active in sports and extracurricular activities.<br>
+                I was also NCC Army cadet [C certificate with A grade] and inrolled in chandigarh police cyber intern program.<br>
+                
+                I'm excited to make the leap and continue refining my skills.
+
+
+            
+                
+            </div>
+            <div class="rightsection">
+                <img src="png.png" alt="">
+            </div>
+        </section>
+        <hr>
+
+    </main> 
+    <footer class="container">
+      <!--  <p class="float-end"><a href="#">Back to top</a></p>-->
+       <div class="footer-rights"> <p>© 2024–2025 Ankit's Portfolio || All Rights Reserved. || Inc. · <a href="#"><span class="purple">Privacy</span></a> · <a href="#"><span class="purple">Terms</span></a></p>
+       </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Graphic Designer', "Video Editor"],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
